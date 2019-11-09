@@ -1,0 +1,46 @@
+.form-group {
+  margin: 1rem 0;
+}
+
+.search-container {
+  background: rgba(255, 255, 255, 0.137);
+  color: #fff;
+  width: 100%;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+}
+
+
+.search {
+  background: rgba(0, 0, 0, 0.5);
+  border: 4px #fff solid;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  border: 1px solid #ccc;
+}
+
+.label {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  padding: 0.4rem 1.3rem;
+  border-radius: 3px;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+}

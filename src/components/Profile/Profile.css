@@ -1,0 +1,117 @@
+.player-container {
+  background: rgba(149, 48, 55, 0.60);
+  color: #fff;
+  width: 100%;
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+}
+
+.sub-heading {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.xbox {
+  width: 3.5%;
+  margin-left: 3rem;
+}
+
+.ps {
+  width: 4%;
+  margin-left: 3rem;
+}
+
+.origin {
+  width: 3%;
+  margin-left: 3rem;
+}
+
+.gamertag {
+  font-size: 4rem;
+  font-weight: 300;
+  background: rgba(149, 48, 55, 0.60);
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.border {
+    border: 1px solid #fff;
+    margin: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+/* a {
+  display: inline-block;
+  margin-top: 2rem;
+  border: #fff 2px solid;
+  padding: 0.5rem 0.8rem;
+}
+
+a:hover {
+  border: #ccc 2px solid;
+  color: #ccc;
+} */
+
+.platform-avatar {
+  width: 50px;
+  margin-right: 0.7rem;
+  border-radius: 50%;
+}
+
+.character {
+  width: 75%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+}
+
+li p {
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+li:first-child p {
+  font-size: 2.3rem;
+}
+
+li span {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+@media (max-width: 500px) {
+  .gamertag {
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+  }
+
+  .platform-avatar {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  li p {
+    font-size: 1.5rem;
+  }
+}

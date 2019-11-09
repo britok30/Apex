@@ -1,0 +1,40 @@
+.twitch-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.twitch-header {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  width: 100%;
+  text-align: center;
+}
+
+.twitch-btn {
+  margin: auto;
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.twitch {
+  background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)),
+    url(../../image/twitch.jpg) no-repeat center center/cover;
+  border-radius: 20px;
+  height: 50vh;
+  width: 100%;
+}
+
+.eanews {
+  background: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)),
+    url(../../image/news.jpg) no-repeat center center/cover;
+  border-radius: 20px;
+  height: 50vh;
+  width: 100%;
+}
+
+.moreinfo {
+  margin: 5rem 0;
+}
