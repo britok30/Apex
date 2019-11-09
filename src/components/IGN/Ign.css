@@ -1,0 +1,11 @@
+.youtube {
+  margin: 3rem auto;
+  display: block;
+  width: 625px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .youtube {
+    display: none;
+  }
+}

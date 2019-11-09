@@ -27,6 +27,11 @@
   margin-left: 3rem;
 }
 
+.character {
+  margin: auto;
+  display: block;
+}
+
 .gamertag {
   font-size: 4rem;
   font-weight: 300;
