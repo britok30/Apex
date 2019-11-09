@@ -4,7 +4,7 @@ const InfoText = () => {
   return (
     <div className="row">
       <div className="col-md-6" style={{ margin: " 2rem auto" }}>
-        <h2 className="sub-heading">About Apex</h2>
+        <h2 className="sub-heading">About Apex Legends</h2>
         <p style={{ fontSize: "1.5rem" }}>
           Conquer with character in Apex Legends, a free-to-play* Battle Royale
           shooter where legendary characters with powerful abilities team up to
